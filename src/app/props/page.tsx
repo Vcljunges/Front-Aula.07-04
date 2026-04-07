@@ -1,0 +1,14 @@
+import Image from "next/image";
+import { Person } from "../components/person";
+import { Card } from "../components/card"
+
+export default function Props() {
+  return (
+    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+        <Card>
+            <h1>Informações</h1>
+            <Person name="Vini" avatar="vcljunges" roles={["programador"]} address="Rua Adolfo Werner" phone="(51) 99577-1396"/>
+        </Card>
+    </div>
+  );
+}
