@@ -44,7 +44,8 @@ export const Autor = ({ frase, autor }: Props) => {
     return (
         <>
         Frase: {frase} <br/>
-        Autor: {autor ?? "Desconhecido"}
+        Autor: {autor ?? "Desconhecido"} <br/>
+        <br/>
         </>
     );
 }
